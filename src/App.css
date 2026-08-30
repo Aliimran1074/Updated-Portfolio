@@ -1,0 +1,17 @@
+.about {
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.services {
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
+}
+
+.skills,
+.projects,
+.education,
+.contact {
+  background: var(--bg);
+}

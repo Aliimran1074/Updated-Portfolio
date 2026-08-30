@@ -1,0 +1,33 @@
+.education__card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 26px 28px;
+  max-width: 560px;
+}
+
+.education__icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+  background: var(--accent-full-dim);
+  color: var(--accent-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education__card h3 {
+  font-size: 16.5px;
+  font-family: var(--font-body);
+  margin-bottom: 4px;
+}
+
+.education__card p {
+  color: var(--text-secondary);
+  font-size: 14.5px;
+}
