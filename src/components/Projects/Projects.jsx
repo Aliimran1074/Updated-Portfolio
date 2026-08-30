@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { projects } from '../../data/projects.js'
+import { projects } from '../../../public/projects/projects.js'
 import { useScrollReveal } from '../../hooks/useScrollReveal.js'
 import ProjectCard from './ProjectCard.jsx'
 import ProjectModal from './ProjectModal.jsx'

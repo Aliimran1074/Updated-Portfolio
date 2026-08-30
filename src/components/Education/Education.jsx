@@ -13,15 +13,29 @@ export default function Education() {
           <h2>Education</h2>
         </div>
 
-        <div className="education__card reveal" data-reveal>
-          <div className="education__icon">
-            <GraduationCap size={22} strokeWidth={1.8} />
-          </div>
-          <div>
-            <h3>Bachelor of Science in Software Engineering</h3>
-            <p>Indus University</p>
-          </div>
-        </div>
+
+<div className="education__cards">
+  <div className="education__card reveal" data-reveal>
+    <div className="education__icon">
+      <GraduationCap size={22} strokeWidth={1.8} />
+    </div>
+    <div>
+      <h3>Bachelor of Science in Software Engineering</h3>
+      <p>Indus University</p>
+    </div>
+  </div>
+
+  <div className="education__card reveal" data-reveal>
+    <div className="education__icon">
+      <GraduationCap size={22} strokeWidth={1.8} />
+    </div>
+    <div>
+      <h3>MERN Stack Developer Diploma</h3>
+      <p>SMIT (2024-2025)</p>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   )

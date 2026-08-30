@@ -17,26 +17,27 @@
 export const projects = [
   {
     id: 'ai-lms',
-    title: 'AI Learning Management System',
-    tagline: 'Placeholder project — replace with your real build',
-    image: '/projects/ai-lms.png',
+    title: 'A Multi Agent Learning Management System for Educational Operational',
+    tagline: 'AI-Powered Agents Transforming Educational Operations',
+    image: '/projects/multi_agent_pic.png',
     description:
-      'A learning platform concept with an AI chatbot for student support, AI-generated exam questions, and an AI mentor that adapts explanations to a learner\u2019s level.',
+      'A multi-agent AI-powered learning management system that automates educational operations, supports students and teachers, and delivers personalized learning through intelligent AI agents.',
     problem:
-      'Traditional LMS platforms are static: the same content and pace for every learner, with no way to ask a follow-up question or get personalized practice.',
+      'Traditional educational systems rely heavily on manual processes, making academic management time-consuming, inefficient, and difficult to scale. This project was created to automate these operations using multiple AI agents and provide smarter support for students, teachers, and institutions.',
     solution:
-      'Designed a system where an LLM-backed chatbot answers course questions in context, an exam generator produces practice questions from course material, and an AI mentor flow adapts its explanations based on a learner\u2019s responses.',
+      'The system uses multiple specialized AI agents to automate educational tasks such as student assistance, mentorship, exam generation, assignment management, and evaluation—reducing manual workload while improving efficiency and learning outcomes.',
     features: [
-      'Course-aware AI chatbot for student Q&A',
-      'AI-generated practice exams from course content',
-      'Adaptive AI mentor that adjusts explanation depth',
-      'Instructor dashboard for content and progress tracking',
+      'Multi-Institute Management',
+'Role-Based Access Control',
+'AI Assignment & Quiz Generation',
+'AI Assignment & Quiz Evaluation',
+'Subscription & AI Usage Tracking'
     ],
     architecture:
-      'React front end talking to a FastAPI backend. Course content is chunked and embedded for retrieval, so chatbot answers are grounded in the actual course material rather than the model\u2019s general knowledge. Exam generation and mentoring flows are handled by separate prompt-engineered pipelines.',
-    technologies: ['React', 'FastAPI', 'LangChain', 'OpenAI API', 'MongoDB'],
-    github: '#',
-    liveDemo: '#',
+      'MERN + Agentic AI + REST API + SaaS Architecture',
+    technologies: ['React', 'Node/Express JS', 'Cron Job', 'OpenAI API', 'MongoDB', 'Generative AI', 'Agentic AI'],
+    github: 'https://github.com/Aliimran1074/MultiAgentLearningManagementSystemForEducationalOperations',
+    liveDemo: 'https://super-admin-dashboard-frontend.vercel.app/',
     caseStudy: '#',
   },
   {
