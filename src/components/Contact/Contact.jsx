@@ -6,7 +6,7 @@ import './Contact.css'
 
 const CONTACT = {
   email: 'aliimransachwani4@gmail.com',
-  github: 'hhttps://github.com/Aliimran1074',
+  github: 'https://github.com/Aliimran1074',
   linkedin: 'https://www.linkedin.com/in/ali-imran-3aa58128a/'
 }
 

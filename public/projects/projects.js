@@ -1,19 +1,3 @@
-/**
- * PLACEHOLDER PROJECT DATA
- * ------------------------
- * Everything in this file is a placeholder for you to replace with your
- * real projects. Nothing here should be presented as real work experience.
- *
- * To add a project: copy an existing object, give it a unique `id`, and
- * fill in your details. `image` should point to a screenshot in /public
- * (e.g. "/projects/my-project.png"); if the file is missing, the project
- * card automatically falls back to a generated placeholder graphic, so the
- * site never shows a broken image.
- *
- * `caseStudy` fields are optional — omit the whole field/section on a
- * project to hide that part of the detail modal.
- */
-
 export const projects = [
   {
     id: 'ai-lms',
@@ -41,50 +25,66 @@ export const projects = [
     caseStudy: '#',
   },
   {
-    id: 'rag-doc-intelligence',
-    title: 'RAG Document Intelligence System',
-    tagline: 'Placeholder project — replace with your real build',
-    image: '/projects/rag-doc-intelligence.png',
-    description:
-      'Upload documents and ask questions about them in plain language, with answers grounded in retrieved passages instead of the model\u2019s general knowledge.',
-    problem:
-      'Searching long documents (PDFs, reports, manuals) for a specific answer is slow, and general-purpose chat models can\u2019t reliably answer questions about content they were never shown.',
-    solution:
-      'Built a retrieval-augmented generation pipeline: documents are parsed and chunked, embedded into a vector store, and relevant chunks are retrieved and passed to the LLM as context for each question, with citations back to the source passage.',
-    features: [
-      'Drag-and-drop document upload and parsing',
-      'Chunking and embedding pipeline for semantic search',
-      'Source-cited answers instead of unsourced claims',
-      'Multi-document question answering in one session',
-    ],
-    architecture:
-      'Documents are processed and embedded, then stored in a vector database for semantic search. A FastAPI backend handles retrieval and prompt assembly, and a React front end presents the chat interface with inline source references.',
-    technologies: ['Python', 'FastAPI', 'LangChain', 'Vector Database', 'React'],
-    github: '#',
-    liveDemo: '#',
-    caseStudy: '#',
-  },
+  id: 'restaurant-management',
+  title: 'Restaurant Management & Ordering System',
+  tagline: 'A Digital Restaurant Platform for Seamless Ordering & Management',
+  image: '/projects/resturant project image.png',
+  description:
+    'A full-stack restaurant management and ordering website built with HTML, CSS, JavaScript, and Firebase, featuring separate user and admin dashboards for online ordering, menu management, and order processing.To Visit in Admin Dashboard Write admin@gmail.com and password is 1234567',
+  problem:
+    'Traditional restaurant operations often rely on manual order handling and management, which can lead to inefficiencies, errors, and difficulty managing menu items and customer orders. This project was developed to digitize these operations through an interactive web-based platform.',
+  solution:
+    'The system provides separate dashboards for customers and administrators. Users can browse menu items and place orders, while administrators can manage restaurant data through CRUD operations and efficiently process and track customer orders using Firebase.',
+  features: [
+    'User & Admin Dashboards',
+    'Menu Management with CRUD Operations',
+    'Online Food Ordering',
+    'Order Management & Tracking',
+    'Firebase Authentication & Database'
+  ],
+  architecture:
+    'HTML + CSS + JavaScript + Firebase Architecture',
+  technologies: [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Firebase Authentication',
+    'Firebase Realtime Database'
+  ],
+  github: 'https://github.com/Aliimran1074/Resturant-Webiste',
+  liveDemo: 'https://aliimran1074.github.io/Resturant-Webiste/',
+  caseStudy: '#',
+},
   {
-    id: 'agentic-research-assistant',
-    title: 'Agentic AI Research Assistant',
-    tagline: 'Placeholder project — replace with your real build',
-    image: '/projects/agentic-research-assistant.png',
-    description:
-      'An AI agent workflow that researches a topic, analyzes what it finds, and produces a structured written response rather than a single generic answer.',
-    problem:
-      'A single LLM call struggles with multi-step research tasks: it can\u2019t plan, search for evidence, evaluate what it finds, and only then write a considered answer.',
-    solution:
-      'Built a graph-based agent workflow that plans a research approach, calls tools to gather information, reflects on the findings, and assembles a structured, well-organized final response.',
-    features: [
-      'Multi-step planning before any output is generated',
-      'Tool-calling for information gathering',
-      'Reflection step to check findings before writing',
-      'Structured, section-based final report output',
-    ],
-    architecture:
-      'Implemented as a directed graph of nodes (plan \u2192 gather \u2192 reflect \u2192 write) using LangGraph, with each node a focused LLM call or tool call. State is passed between nodes so the agent can revise its plan based on what it finds.',
-    technologies: ['Python', 'LangGraph', 'LangChain', 'Tool Calling', 'Streamlit'],
-    github: '#',
-    liveDemo: '#',
-  },
+  id: 'ai-chatbot-langgraph',
+  title: 'AI Conversational Chatbot with LangGraph',
+  tagline: 'An Intelligent Conversational AI Built with LangGraph & OpenAI',
+  image: '/projects/chatbot image.png',
+  description:
+    'An AI-powered conversational chatbot built with Streamlit, LangGraph, and OpenAI API, featuring stateful conversations, message streaming, and structured AI workflow management.',
+  problem:
+    'Basic chatbot implementations often struggle with maintaining conversation state and managing complex AI workflows. This project was developed to create a more structured and interactive conversational system using LangGraph for state management and workflow orchestration.',
+  solution:
+    'The chatbot uses LangGraph to manage conversational workflows and maintain message state, while OpenAI provides intelligent responses. Streamlit delivers an interactive chat interface with real-time response streaming for a smooth user experience.',
+  features: [
+    'AI-Powered Conversational Chatbot',
+    'LangGraph-Based Workflow & State Management',
+    'Conversation History & Memory',
+    'Real-Time Response Streaming',
+    'Interactive Streamlit Chat Interface'
+  ],
+  architecture:
+    'Streamlit + LangGraph + OpenAI API Architecture',
+  technologies: [
+    'Python',
+    'Streamlit',
+    'LangGraph',
+    'LangChain',
+    'OpenAI API',
+    'Generative AI'
+  ],
+  github: 'https://github.com/Aliimran1074/ChatBot-using-LangGraph-and-Streamlit',
+  liveDemo: 'https://chatbot-using-langgraph-and-app-bts4g8sivt8zq7ohmkhd4z.streamlit.app/',
+  caseStudy: '#',
+},
 ]
